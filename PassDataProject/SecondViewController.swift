@@ -9,6 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var login: String?
     @IBOutlet weak var label: UILabel!
     
     @IBAction func goBackTapped(_ sender: Any) {
