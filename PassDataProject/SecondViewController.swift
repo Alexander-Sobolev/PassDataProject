@@ -20,5 +20,6 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func goBackTapped(_ sender: Any) {
+        performSegue(withIdentifier: "unwindSegue", sender: nil)
     }
 }
