@@ -83,12 +83,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wa-rd-rUh">
-                                <rect key="frame" x="165" y="169" width="84" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FU-Xb-hJW">
                                 <rect key="frame" x="160" y="435.5" width="89" height="35"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
@@ -100,18 +94,23 @@
                                     <action selector="goBackTapped:" destination="Prr-oP-PQZ" eventType="touchUpInside" id="Tag-EO-CvC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wa-rd-rUh">
+                                <rect key="frame" x="117" y="111" width="175" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jsx-rW-qGt"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="jsx-rW-qGt" firstAttribute="trailing" secondItem="3wa-rd-rUh" secondAttribute="trailing" constant="165" id="19X-9r-U3r"/>
                             <constraint firstItem="6FU-Xb-hJW" firstAttribute="leading" secondItem="jsx-rW-qGt" secondAttribute="leading" constant="160" id="9HO-ZT-J8F"/>
-                            <constraint firstItem="6FU-Xb-hJW" firstAttribute="top" secondItem="3wa-rd-rUh" secondAttribute="bottom" constant="224.5" id="Dft-h2-hX8"/>
                             <constraint firstItem="jsx-rW-qGt" firstAttribute="trailing" secondItem="6FU-Xb-hJW" secondAttribute="trailing" constant="165" id="Hbi-cr-1vl"/>
-                            <constraint firstItem="jsx-rW-qGt" firstAttribute="bottom" secondItem="3wa-rd-rUh" secondAttribute="bottom" constant="651" id="Jyy-1B-AZI"/>
+                            <constraint firstItem="jsx-rW-qGt" firstAttribute="trailing" secondItem="3wa-rd-rUh" secondAttribute="trailing" constant="122" id="HqP-AH-fSh"/>
                             <constraint firstItem="6FU-Xb-hJW" firstAttribute="centerY" secondItem="jsx-rW-qGt" secondAttribute="centerY" id="XAX-di-Md0"/>
-                            <constraint firstItem="3wa-rd-rUh" firstAttribute="centerX" secondItem="jsx-rW-qGt" secondAttribute="centerX" id="ehk-dF-0oe"/>
-                            <constraint firstItem="3wa-rd-rUh" firstAttribute="top" secondItem="jsx-rW-qGt" secondAttribute="top" constant="125" id="reG-6Q-r3H"/>
+                            <constraint firstItem="jsx-rW-qGt" firstAttribute="bottom" secondItem="3wa-rd-rUh" secondAttribute="bottom" constant="599" id="XGG-GF-QZJ"/>
+                            <constraint firstItem="3wa-rd-rUh" firstAttribute="leading" secondItem="jsx-rW-qGt" secondAttribute="leading" constant="117" id="Xtc-RJ-7eb"/>
+                            <constraint firstItem="3wa-rd-rUh" firstAttribute="top" secondItem="jsx-rW-qGt" secondAttribute="top" constant="67" id="aXD-o3-Qyc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BPx-MQ-sty"/>
